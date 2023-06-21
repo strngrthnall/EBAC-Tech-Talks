@@ -25,6 +25,10 @@ src{
     ***
   }
   styles {
+    components {
+      _buttons.sass (exemplo)
+      ***
+    }
     main.scss
     ***
   }
