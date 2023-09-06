@@ -29,7 +29,7 @@ src{
       _buttons.sass (exemplo)
       ***
     }
-    main.scss
+    main.sass
     ***
   }
 }

@@ -16,8 +16,8 @@ const contaAsHoras = setInterval(()=>{
 
   const diasAteOEvento = Math.floor(distanciaAteOEvento / diaEmMs)
   const horasAteOEvento = Math.floor(Math.floor(distanciaAteOEvento % diaEmMs) / horaEmMs)
-  const minutosAteOEvento = Math.floor((distanciaAteOEvento % horaEmMs) / minutoEmMs)
-  const segundosAteOEvento = Math.floor((distanciaAteOEvento % minutoEmMs) / segundoEmMs)
+  const minutosAteOEvento = Math.floor(Math.floor(distanciaAteOEvento % horaEmMs) / minutoEmMs)
+  const segundosAteOEvento = Math.floor(Math.floor(distanciaAteOEvento % minutoEmMs) / segundoEmMs)
 
   const listaDaData = [diasAteOEvento, horasAteOEvento, minutosAteOEvento, segundosAteOEvento]
 
